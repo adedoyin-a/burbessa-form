@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Burbessa - Online Language Learning Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Burbessa Language Learning Survey</h1>
+    <p id="description">Help improve the future of language learning</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Full Name <input type="text" id="name" placeholder="Enter your full name" required/></label>
+
+        <label id="email-label">Email <input type="email" id="email" placeholder="doyin@example.com" required/></label>
+
+        <label id="number-label">Age <input type="number" id="number" placeholder="How old are you?" min="8" max="130"/></label>
+        <label>Which best describes your ethnicity or race? <select id="dropdown">
+          <option value="">Select an option</option>
+          <option value="asian">Asian</option>
+          <option value="native-american">Alaska Native/American Indian</option>
+          <option value="black-africanamerican">Black/African American</option>
+          <option value="hispanic">Hispanic, Latino or Spanish</option>
+          <option value="white">White</option>
+          </select> </label>
+        <label>How many languages do you currently speak?
+        <label><input type="radio" name="number-of-languages-spoken" value="1" /> 1</label>
+        <label><input type="radio" name="number-of-languages-spoken" value="2"/> 2</label>
+        <label><input type="radio" name="number-of-languages-spoken" value="3"/> 3</label>
+        <label><input type="radio" name="number-of-languages-spoken" value="More than 3"/> More than 3</label> </label>
+      <label>
+        Would you like to learn another language?
+        <select id="interested-learner">
+          <option value="">Select an option</option>
+          <option value="1">Yes, I want to learn</option>
+          <option value="2">No, I'm not interested</option>
+          <option value="3">Maybe, I'll think about it<option>
+          </select>
+      </label>
+
+        <label>Which of the following languages are you likely to learn or recommend to a friend?
+      <label><input type="checkbox" value="Arabic" id="language1" name="language1"/> Arabic</label>
+
+      <label><input type="checkbox" value="Aramaic" id="language2" name="language2"/> Aramaic</label>
+
+      <label><input type="checkbox" value="Bengali" id="language3" name="language3"/> Bengali</label>
+
+      <label><input type="checkbox" value="Chinese" id="language4" name="language4"/> Chinese (Mandarin)</label>
+
+      <label><input type="checkbox" value="English" id="language5" name="language5"/> English</label>
+
+      <label><input type="checkbox" value="French" id="language6" name="language6"/> French</label>
+
+      <label><input type="checkbox" value="German" id="language7" name="language7"/> German</label>
+      
+      <label><input type="checkbox" value="Greek" id="language8" name="language8"/> Greek</label>
+
+      <label><input type="checkbox" value="Hausa" id="language9" name="language9"/> Hausa</label>
+
+      <label><input type="checkbox" value="Hindi" id="language10" name="language10"/> Hindi</label>
+
+      <label><input type="checkbox" value="Igbo" id="language11" name="language11"/> Igbo</label>
+
+      <label><input type="checkbox" value="Italian" id="language12" name="language12"/> Italian</label>
+
+      <label><input type="checkbox" value="Japanese" id="language13" name="language13"/> Japanese</label>
+
+      <label><input type="checkbox" value="Korean" id="language14" name="language14"/> Korean</label>
+
+      <label><input type="checkbox" value="Portuguese" id="language15" name="language15"/> Portuguese</label>
+
+            <label><input type="checkbox" value="Russian" id="language16" name="language16"/> Russian</label>
+
+      <label><input type="checkbox" value="Spanish" id="language17" name="language17"/> Spanish</label>
+
+      <label><input type="checkbox" value="Vietnamese" id="language18" name="language18"/> Vietnamese</label>
+
+      <label><input type="checkbox" value="Yoruba" id="language19" name="language19"/> Yoruba</label>
+
+      <label><input type="checkbox" value="Zulu" id="language20" name="language20"/> Zulu</label>
+      </label>
+
+      <label>Why do you recommend the languages selected above <textarea name="motivation" rows="5" col="60" placeholder="Kindly tell us the reason for your choice of languages above"></textarea>
+      </label>
+      </fieldset>
+      <input type="submit"id="submit" value="Submit" class="submit-btn"/>
+    </form>
+  </body>
+</html>
